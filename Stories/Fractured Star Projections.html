@@ -9,7 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Fractured Star Projections.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Fractured Star Projections" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="D6E886B9-4E3E-4C61-9507-C0F4194B8BFC" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="transition" color="green"></tw-tag><tw-passagedata pid="1" name="Look outside your front door" tags="transition" position="1100,550" size="100,100">A man is sitting on a bench. It&#39;s nighttime.  He&#39;s taking a drug that breaks down the process between his eyes taking in information and his brain constructing a scene. 
+<tw-storydata name="Fractured Star Projections" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="D6E886B9-4E3E-4C61-9507-C0F4194B8BFC" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="transition" color="green"></tw-tag><tw-passagedata pid="1" name="Look outside your front door" tags="transition" position="1100,550" size="100,100">A man is sitting on a bench. It&#39;s nighttime.  He&#39;s taking a drug that breaks down the process between his eyes absorbing information and his brain constructing a scene. 
 
 Normally, when his brain gets this information, it creates the images immediately from scratch. With the drug, he sees the steps of the process. Like a flowchart. 
 
@@ -568,7 +568,9 @@ The top is a crusher.
 [[Head to the park]] 
 [[Look outside your front door]] 
 [[Take a nap]]
-[[Continue on your walk]] </tw-passagedata></tw-storydata>
+[[Continue on your walk]] 
+
+(link-goto:&quot;Choose for me&quot;, (either: &quot;Head to the park&quot;, &quot;Look outside our front door&quot;, &quot;Take a nap&quot;, &quot;Continue on your walk&quot;))</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
